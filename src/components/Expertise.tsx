@@ -2,7 +2,7 @@ import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHtml5, faCss3Alt, faJs, faNodeJs, faReact, faMdb ,faGitAlt} from '@fortawesome/free-brands-svg-icons';
-import Chip from '@mui/material/Chip';
+
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
