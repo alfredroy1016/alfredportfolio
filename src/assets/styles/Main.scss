@@ -50,12 +50,19 @@
 }
 
 .about-section .image-wrapper {
-    z-index: 2;
-    img {
-        width: 400px;
-        border-radius: 50%;
+  z-index: 2;
+
+  img {
+    width: 400px;
+    border-radius: 50%;
+
+    // Mobile responsive rule
+    @media (max-width: 768px) {
+      width: 225px;
     }
+  }
 }
+
 
 .about p {
     text-align: center;
